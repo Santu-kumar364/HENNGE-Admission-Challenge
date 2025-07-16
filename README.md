@@ -1,7 +1,5 @@
  # HENNGE Frontend Challenge - Password Validation
 
-![HENNGE Logo](https://www.hennge.com/assets/images/logo.png)
-
 A solution for the HENNGE frontend coding challenge implementing password validation with API integration.
 
 ## Challenge Overview
