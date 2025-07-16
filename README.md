@@ -34,71 +34,53 @@ Download the starter:
 
 ```bash
 frontend_password_validation_v1_challenge.tar.gz
+
 Choose React or Vue (provided boilerplate), and work only on:
-
-sql
-Copy
-Edit
 src/create-user-form.tsx or create-user-form.vue
-🛠 Components
-create-user-form: Contains Username & Password input. You will work only on this.
 
-app: Contains the success message "User was successfully created".
+🛠 Components
+- create-user-form: Contains Username & Password input. You will work only on this.
+
+- app: Contains the success message "User was successfully created".
 
 ⚠️ Do NOT change any CSS or install extra packages.
 
 🔗 Connect the Form to the API
-Base URL:
-
-bash
-Copy
-Edit
 https://api.challenge.hennge.com/password-validation-challenge-api/001
 Refer /openapi.json for specification.
 
 🔒 Server-Side Handling
 🔘 Send request on button press:
-Gather username & password
+- Gather username & password
 
-POST to /challenge-signup
+- POST to /challenge-signup
 
-Include headers:
-
-http
-Copy
-Edit
+- Include headers:
 Authorization: Bearer <your-token-from-challenge-details>
+
 ✅ On Success:
 Transition to success state in app
 
 ❌ 500 Error:
-text
-Copy
-Edit
 Something went wrong, please try again.
+
 ⚠️ Weak Password:
-text
-Copy
-Edit
 Sorry, the entered password is not allowed, please try a different one.
+
 🚫 Unauthorized (401/403):
-text
-Copy
-Edit
 Not authenticated to access this resource.
+
 📌 Reset errors when the form is resubmitted.
 
 🧪 Client-Side Password Validation
 Validation Criteria:
-text
-Copy
-Edit
 Password must be at least 10 characters long
 Password must be at most 24 characters long
 Password cannot contain spaces
 Password must contain at least one number
 Password must contain at least one uppercase letter
 Password must contain at least one lowercase letter
+
 Examples:
 2838172 → show 3 messages
 
@@ -172,4 +154,20 @@ Edit
 {
   "message": "Congratulations! You have achieved mission 3"
 }
+❓ Got Questions?
+Only contact us if:
+
+You face 500 errors or API issues
+
+For help:
+
+Interns: gip@hennge.com
+
+Career: recruit-engineer@hennge.com
+
+⚖️ Copyright
+© HENNGE K.K. All rights reserved.
+
+This challenge and materials are confidential. Sharing or publishing them in whole or part is prohibited.
+
 
