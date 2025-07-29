@@ -73,7 +73,7 @@ This solution was submitted to HENNGE as part of their frontend engineering chal
 *This project was created as part of the HENNGE admission challenge. All challenge materials are property of HENNGE K.K.*
 
 ---
-### Result
+## Result
 
 <img width="1919" height="868" alt="Screenshot 2025-07-29 130647" src="https://github.com/user-attachments/assets/09d95681-3457-40cb-a3e0-5d5c54d3eb58" />
 
