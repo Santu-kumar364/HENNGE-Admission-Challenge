@@ -70,8 +70,6 @@ This solution was submitted to HENNGE as part of their frontend engineering chal
 
 **Note**: The source code is available as a secret gist as required by the challenge guidelines.
 
----
-
 *This project was created as part of the HENNGE admission challenge. All challenge materials are property of HENNGE K.K.*
 
 ---
